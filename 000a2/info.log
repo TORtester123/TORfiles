@@ -1,0 +1,135 @@
+Aug 18 18:11:24.000 [notice] Tor 0.2.4.23 (git-19f0f189116dba73) opening new log file.
+Aug 18 18:11:24.000 [info] tor_lockfile_lock(): Locking "/root/chutney/net/nodes/000a/lock"
+Aug 18 18:11:24.000 [info] or_state_load(): Initialized state
+Aug 18 18:11:24.000 [info] or_state_save(): Saved state to "/root/chutney/net/nodes/000a/state"
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/000a/router-stability": No such file or directory
+Aug 18 18:11:24.000 [info] crypto_global_init(): OpenSSL version matches version from headers (9080ff: OpenSSL 0.9.8o 01 Jun 2010).
+Aug 18 18:11:24.000 [notice] Your OpenSSL version seems to be 0.9.8o. We recommend 1.0.0 or later.
+Aug 18 18:11:24.000 [info] crypto_global_init(): NOT using OpenSSL engine support.
+Aug 18 18:11:24.000 [info] evaluate_evp_for_aes(): No AES engine found; using AES_* functions.
+Aug 18 18:11:24.000 [info] evaluate_ctr_for_aes(): This version of OpenSSL has a slow implementation of counter mode; not using it.
+Aug 18 18:11:24.000 [info] crypto_strongest_rand(): Reading entropy from "/dev/urandom"
+Aug 18 18:11:24.000 [info] init_keys(): Reading/making identity key "/root/chutney/net/nodes/000a/keys/secret_id_key"...
+Aug 18 18:11:24.000 [info] init_keys(): Reading/making onion key "/root/chutney/net/nodes/000a/keys/secret_onion_key"...
+Aug 18 18:11:24.000 [info] mark_my_descriptor_dirty(): Decided to publish new relay descriptor: set onion key
+Aug 18 18:11:24.000 [info] tor_tls_init(): OpenSSL OpenSSL 0.9.8o 01 Jun 2010 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Aug 18 18:11:24.000 [info] tor_tls_context_new(): Disabling SSLv3 because this OpenSSL version might otherwise be vulnerable to CVE-2011-4576 (compile-time version 009080ff (OpenSSL 0.9.8o 01 Jun 2010); runtime version 009080ff (OpenSSL 0.9.8o 01 Jun 2010))
+Aug 18 18:11:24.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:24.000 [info] router_rebuild_descriptor(): Rebuilding relay descriptor
+Aug 18 18:11:24.000 [info] extrainfo_dump_to_string(): Adding stats to extra-info descriptor.
+Aug 18 18:11:24.000 [info] connection_or_connect(): Client asked me to connect to myself. Refusing.
+Aug 18 18:11:24.000 [info] dirserv_add_descriptor(): Added descriptor from 'test000a' (source: self): Descriptor accepted.
+Aug 18 18:11:24.000 [info] init_keys(): Dumping fingerprint to "/root/chutney/net/nodes/000a/fingerprint"...
+Aug 18 18:11:24.000 [notice] Your Tor server's identity key fingerprint is 'test000a 69C62DA6F3AA8E94EFA02BC3392AEF83F8351C1D'
+Aug 18 18:11:24.000 [info] dirserv_load_fingerprint_file(): Reloading approved fingerprints from "/root/chutney/net/nodes/000a/approved-routers"...
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/000a/approved-routers": No such file or directory
+Aug 18 18:11:24.000 [info] dirserv_load_fingerprint_file(): Cannot open fingerprint file '/root/chutney/net/nodes/000a/approved-routers'. That's ok.
+Aug 18 18:11:24.000 [warn] Configured authority type does not match authority type in DirAuthority list.  Adjusting. (100 v 108)
+Aug 18 18:11:24.000 [info] init_keys(): adding my own v3 cert
+Aug 18 18:11:24.000 [info] trusted_dirs_load_certs_from_string(): Adding downloaded certificate for directory authority test000a with signing key 770808A3C1D75257813FFF82293028B667D8F6CA
+Aug 18 18:11:24.000 [info] cell_ewma_set_scale_factor(): Disabled cell_ewma algorithm because of value in Default value
+Aug 18 18:11:24.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Aug 18 18:11:24.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Aug 18 18:11:25.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Aug 18 18:11:25.000 [info] mark_my_descriptor_dirty(): Decided to publish new relay descriptor: config change
+Aug 18 18:11:25.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Aug 18 18:11:25.000 [info] configure_nameservers(): Parsing resolver configuration in '/etc/resolv.conf'
+Aug 18 18:11:25.000 [info] eventdns: Parsing resolv.conf file /etc/resolv.conf
+Aug 18 18:11:25.000 [info] eventdns: Trying to add nameserver <10.103.0.1>
+Aug 18 18:11:25.000 [info] eventdns: Added nameserver 10.103.0.1
+Aug 18 18:11:25.000 [info] eventdns: Setting maximum allowed timeouts to 16
+Aug 18 18:11:25.000 [info] eventdns: Setting timeout to 10
+Aug 18 18:11:25.000 [info] eventdns: Setting randomize_case to 1
+Aug 18 18:11:25.000 [info] Bootstrapped 0%: Starting.
+Aug 18 18:11:25.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/000a/cached-certs": No such file or directory
+Aug 18 18:11:25.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/000a/cached-consensus": No such file or directory
+Aug 18 18:11:25.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/000a/unverified-consensus": No such file or directory
+Aug 18 18:11:25.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/000a/cached-microdesc-consensus": No such file or directory
+Aug 18 18:11:25.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/000a/unverified-microdesc-consensus": No such file or directory
+Aug 18 18:11:25.000 [info] tor_mmap_file(): Could not open "/root/chutney/net/nodes/000a/cached-microdescs" for mmap(): No such file or directory
+Aug 18 18:11:25.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/000a/cached-microdescs.new": No such file or directory
+Aug 18 18:11:25.000 [info] microdesc_cache_reload(): Reloaded microdescriptor cache. Found 0 descriptors.
+Aug 18 18:11:25.000 [info] tor_mmap_file(): Could not open "/root/chutney/net/nodes/000a/cached-descriptors" for mmap(): No such file or directory
+Aug 18 18:11:25.000 [info] router_load_routers_from_string(): 1 elements to add
+Aug 18 18:11:25.000 [info] router_add_to_routerlist(): Dropping descriptor that we already have for router $69C62DA6F3AA8E94EFA02BC3392AEF83F8351C1D~test000a at 127.0.0.1
+Aug 18 18:11:25.000 [info] router_rebuild_store(): Rebuilding router descriptors cache
+Aug 18 18:11:25.000 [info] router_rebuild_store(): Reconstructing pointers into cache
+Aug 18 18:11:25.000 [info] tor_mmap_file(): Could not open "/root/chutney/net/nodes/000a/cached-extrainfo" for mmap(): No such file or directory
+Aug 18 18:11:25.000 [info] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] router_rebuild_descriptor(): Rebuilding relay descriptor
+Aug 18 18:11:25.000 [info] extrainfo_dump_to_string(): Adding stats to extra-info descriptor.
+Aug 18 18:11:25.000 [info] dirserv_add_descriptor(): Added descriptor from 'test002r' (source: 127.0.0.1): Descriptor accepted.
+Aug 18 18:11:25.000 [notice] Bootstrapped 10%: Finishing handshake with directory server.
+Aug 18 18:11:25.000 [notice] We weren't able to find support for all of the TLS ciphersuites that we wanted to advertise. This won't hurt security, but it might make your Tor (if run as a client) more easy for censors to block.
+Aug 18 18:11:25.000 [notice] To correct this, use a more recent OpenSSL, built without disabling any secure ciphers or features.
+Aug 18 18:11:25.000 [info] log_unsupported_ciphers(): The unsupported ciphers were: TLS1_TXT_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS1_TXT_ECDHE_RSA_WITH_AES_128_GCM_SHA256:DHE-RSA-CAMELLIA128-SHA:DHE-RSA-CAMELLIA256-SHA:CAMELLIA128-SHA:CAMELLIA256-SHA
+Aug 18 18:11:25.000 [info] connection_tls_continue_handshake(): Client got a v3 cert!  Moving on to v3 handshake with ciphersuite DHE-RSA-AES256-SHA
+Aug 18 18:11:25.000 [info] channel_tls_process_versions_cell(): Negotiated version 4 with 127.0.0.1:5002; Sending cells: CERTS
+Aug 18 18:11:25.000 [info] dirserv_orconn_tls_done(): Found router $78C676B6CF3375AC6BF3631310D69B81984C2E92~test002r at 127.0.0.1 to be reachable at 127.0.0.1:5002. Yay.
+Aug 18 18:11:25.000 [info] rep_hist_note_router_reachable(): Router 78C676B6CF3375AC6BF3631310D69B81984C2E92 is now Running; it was previously untracked
+Aug 18 18:11:25.000 [info] channel_tls_process_certs_cell(): Got some good certificates from 127.0.0.1:5002: Authenticated it.
+Aug 18 18:11:25.000 [info] channel_tls_process_auth_challenge_cell(): Got an AUTH_CHALLENGE cell from 127.0.0.1:5002: Sending authentication
+Aug 18 18:11:25.000 [info] channel_tls_process_netinfo_cell(): Got good NETINFO cell from 127.0.0.1:5002; OR connection is now open, using protocol version 4. Its ID digest is 78C676B6CF3375AC6BF3631310D69B81984C2E92. Our address is apparently 127.0.0.1.
+Aug 18 18:11:25.000 [info] dirserv_add_descriptor(): Added descriptor from 'test001r' (source: 127.0.0.1): Descriptor accepted.
+Aug 18 18:11:25.000 [info] connection_tls_continue_handshake(): Client got a v3 cert!  Moving on to v3 handshake with ciphersuite DHE-RSA-AES256-SHA
+Aug 18 18:11:25.000 [info] channel_tls_process_versions_cell(): Negotiated version 4 with 127.0.0.1:5001; Sending cells: CERTS
+Aug 18 18:11:25.000 [info] dirserv_orconn_tls_done(): Found router $52C33DA3D07AD109C29802BE3E4F684FBA4AF1AE~test001r at 127.0.0.1 to be reachable at 127.0.0.1:5001. Yay.
+Aug 18 18:11:25.000 [info] rep_hist_note_router_reachable(): Router 52C33DA3D07AD109C29802BE3E4F684FBA4AF1AE is now Running; it was previously untracked
+Aug 18 18:11:25.000 [info] channel_tls_process_certs_cell(): Got some good certificates from 127.0.0.1:5001: Authenticated it.
+Aug 18 18:11:25.000 [info] channel_tls_process_auth_challenge_cell(): Got an AUTH_CHALLENGE cell from 127.0.0.1:5001: Sending authentication
+Aug 18 18:11:25.000 [info] channel_tls_process_netinfo_cell(): Got good NETINFO cell from 127.0.0.1:5001; OR connection is now open, using protocol version 4. Its ID digest is 52C33DA3D07AD109C29802BE3E4F684FBA4AF1AE. Our address is apparently 127.0.0.1.
+Aug 18 18:11:25.000 [info] channel_register(): Channel 0x7f69b2b9a090 (global ID 4) in state opening (1) registered with no identity digest
+Aug 18 18:11:25.000 [info] channel_tls_process_versions_cell(): Negotiated version 4 with 127.0.0.1:45880; Sending cells: VERSIONS CERTS AUTH_CHALLENGE NETINFO
+Aug 18 18:11:25.000 [info] channel_tls_process_netinfo_cell(): Got good NETINFO cell from 127.0.0.1:45880; OR connection is now open, using protocol version 4. Its ID digest is 0000000000000000000000000000000000000000. Our address is apparently 127.0.0.1.
+Aug 18 18:11:26.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:26.000 [info] router_upload_dir_desc_to_dirservers(): Uploading relay descriptor to directory authorities
+Aug 18 18:11:26.000 [info] directory_post_to_dirservers(): Uploading an extrainfo too (length 448)
+Aug 18 18:11:26.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:26.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:26.000 [info] router_pick_dirserver_generic(): No dirservers are reachable. Trying them all again.
+Aug 18 18:11:26.000 [info] directory_get_from_dirserver(): No authorities were available for network-status fetch: will try later.
+Aug 18 18:11:26.000 [info] update_consensus_networkstatus_downloads(): Launching ns networkstatus consensus download.
+Aug 18 18:11:26.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:26.000 [info] router_pick_dirserver_generic(): No dirservers are reachable. Trying them all again.
+Aug 18 18:11:26.000 [info] router_pick_directory_server(): No reachable router entries for dirservers. Trying them all again.
+Aug 18 18:11:26.000 [info] directory_pick_generic_dirserver(): No router found for consensus network-status fetch; falling back to dirserver list.
+Aug 18 18:11:26.000 [info] router_pick_dirserver_generic(): No dirservers are reachable. Trying them all again.
+Aug 18 18:11:26.000 [notice] While fetching directory info, no running dirservers known. Will try again later. (purpose 14)
+Aug 18 18:11:26.000 [info] update_consensus_networkstatus_downloads(): Launching microdesc networkstatus consensus download.
+Aug 18 18:11:26.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:26.000 [info] router_pick_dirserver_generic(): No dirservers are reachable. Trying them all again.
+Aug 18 18:11:26.000 [info] router_pick_directory_server(): No reachable router entries for dirservers. Trying them all again.
+Aug 18 18:11:26.000 [info] directory_pick_generic_dirserver(): No router found for consensus network-status fetch; falling back to dirserver list.
+Aug 18 18:11:26.000 [info] router_pick_dirserver_generic(): No dirservers are reachable. Trying them all again.
+Aug 18 18:11:26.000 [notice] While fetching directory info, no running dirservers known. Will try again later. (purpose 14)
+Aug 18 18:11:26.000 [notice] Scheduling voting.  Known authority IDs are 783285E5999AFBC369E21B6AB4840C3B7DA3761B. Mine is 783285E5999AFBC369E21B6AB4840C3B7DA3761B.
+Aug 18 18:11:26.000 [notice] Choosing expected valid-after time as 2014-08-18 18:15:00: consensus_set=0, interval=300
+Aug 18 18:11:26.000 [info] or_state_save(): Saved state to "/root/chutney/net/nodes/000a/state"
+Aug 18 18:11:26.000 [info] dirserv_add_descriptor(): Added descriptor from 'test003r' (source: 127.0.0.1): Descriptor accepted.
+Aug 18 18:11:26.000 [info] connection_exit_connect_dir(): Opening local connection for anonymized directory exit
+Aug 18 18:11:26.000 [info] connection_tls_continue_handshake(): Client got a v3 cert!  Moving on to v3 handshake with ciphersuite DHE-RSA-AES256-SHA
+Aug 18 18:11:26.000 [info] channel_tls_process_versions_cell(): Negotiated version 4 with 127.0.0.1:5003; Sending cells: CERTS
+Aug 18 18:11:26.000 [info] dirserv_orconn_tls_done(): Found router $770CEFC1CC8F5C42280CB8600A8B4B545F91F173~test003r at 127.0.0.1 to be reachable at 127.0.0.1:5003. Yay.
+Aug 18 18:11:26.000 [info] rep_hist_note_router_reachable(): Router 770CEFC1CC8F5C42280CB8600A8B4B545F91F173 is now Running; it was previously untracked
+Aug 18 18:11:26.000 [info] channel_tls_process_certs_cell(): Got some good certificates from 127.0.0.1:5003: Authenticated it.
+Aug 18 18:11:26.000 [info] channel_tls_process_auth_challenge_cell(): Got an AUTH_CHALLENGE cell from 127.0.0.1:5003: Sending authentication
+Aug 18 18:11:26.000 [info] channel_tls_process_netinfo_cell(): Got good NETINFO cell from 127.0.0.1:5003; OR connection is now open, using protocol version 4. Its ID digest is 770CEFC1CC8F5C42280CB8600A8B4B545F91F173. Our address is apparently 127.0.0.1.
+Aug 18 18:11:26.000 [info] dirserv_add_descriptor(): Added descriptor from 'test000a' (source: 127.0.0.1): Valid server updated.
+Aug 18 18:11:26.000 [info] connection_free_(): Freeing linked Directory connection [writing] with 0 bytes on inbuf, 0 on outbuf.
+Aug 18 18:11:26.000 [info] connection_dir_client_reached_eof(): eof (status 200) after uploading server descriptor: finished.
+Aug 18 18:11:26.000 [info] connection_edge_reached_eof(): conn (fd -1) reached eof. Closing.
+Aug 18 18:11:26.000 [info] connection_free_(): Freeing linked Exit connection [open] with 0 bytes on inbuf, 0 on outbuf.
+Aug 18 18:11:37.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:37.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:48.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:48.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:51.000 [notice] Catching signal TERM, exiting cleanly.
+Aug 18 18:11:51.000 [info] or_state_save(): Saved state to "/root/chutney/net/nodes/000a/state"
+Aug 18 18:11:51.000 [info] cpuworker_main(): read request failed. Exiting.
+Aug 18 18:11:51.000 [info] buf_shrink_freelists(): Cleaned freelist for 4096-byte chunks: original length 3, kept 0, dropped 3.
+Aug 18 18:11:51.000 [info] buf_shrink_freelists(): Cleaned freelist for 8192-byte chunks: original length 1, kept 0, dropped 1.
+Aug 18 18:11:51.000 [info] buf_shrink_freelists(): Cleaned freelist for 16384-byte chunks: original length 0, kept 0, dropped 0.
+Aug 18 18:11:51.000 [info] buf_shrink_freelists(): Cleaned freelist for 32768-byte chunks: original length 1, kept 0, dropped 1.
+Aug 18 18:11:51.000 [info] tor_lockfile_unlock(): Unlocking "/root/chutney/net/nodes/000a/lock"

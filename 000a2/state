@@ -1,0 +1,19 @@
+# Tor state file last generated on 2014-08-18 18:11:51 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+BWHistoryReadEnds 2014-08-18 18:26:24
+BWHistoryReadValues 18432
+BWHistoryReadMaxima 1024
+BWHistoryWriteEnds 2014-08-18 18:26:24
+BWHistoryWriteValues 13312
+BWHistoryWriteMaxima 0
+BWHistoryDirReadEnds 2014-08-18 18:26:24
+BWHistoryDirReadValues 8192
+BWHistoryDirReadMaxima 0
+BWHistoryDirWriteEnds 2014-08-18 18:26:24
+BWHistoryDirWriteValues 0
+BWHistoryDirWriteMaxima 0
+TorVersion Tor 0.2.4.23 (git-19f0f189116dba73)
+LastRotatedOnionKey 2014-08-18 18:11:24
+LastWritten 2014-08-18 18:11:51

@@ -1,0 +1,31 @@
+router test000a 127.0.0.1 5000 0 7000
+platform Tor 0.2.4.23 on Linux
+protocols Link 1 2 Circuit 1
+published 2014-08-18 18:11:24
+fingerprint 69C6 2DA6 F3AA 8E94 EFA0 2BC3 392A EF83 F835 1C1D
+uptime 0
+bandwidth 1073741824 1073741824 0
+extra-info-digest DE50D981EDF11708555432F7F9A435B850EC288B
+caches-extra-info
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAON13vJTw9EwZH+OPNJxDjDSQguplDoOsiTqqP+U2G1Bo8aOPjLFLqs4
+PFwBJueQgQcvQyJbLb3POF2wvdY/dRPPVetOgv51DGANBrVxPM7Sdhn1w0gigitp
+YDtO9fFRUgvUu3rC0MGRiFp/R/jjCNZNriwggNzdEoRwVL1hrWtZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALBO2facBrqkkkzGx6QP6zAp/aPT1X0lQql8HMXZja/ainiGLKocRfhc
+Zu58+JZIAkj+xzuXpiZ7VlBNxeOTT3slSzCVAFHwFampObxDsKCFxH6makrcyZpB
+9iEmAz62YT4rZe00uJh3Q90nCNyNrkr103uEYBKmRs7FR9GslQkHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact auth0@test.test
+ntor-onion-key hVhgbMT549DUqqTHnV5NAzZ1+lqprNbsOrRKpoLkPBo=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+gGbCXVB9duPdk/zaPwb9G/nJZcbYBJwdd6CvwzGwhnyl4dVM6k6UNaw/yibHpAcE
+tLxhQpDgoeme9IYexsI7zAZGP98Lp5tTlxXHXugQOUQY2ZnxGOeYVDSFWSH5Pgox
+2czICyActIu/kpnh7V8V8RicGpgxGrLeUecCmCzP0BE=
+-----END SIGNATURE-----

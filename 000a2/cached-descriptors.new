@@ -1,0 +1,156 @@
+@uploaded-at 2014-08-18 18:11:25
+@source "127.0.0.1"
+router test002r 127.0.0.1 5002 0 7002
+platform Tor 0.2.4.23 on Linux
+protocols Link 1 2 Circuit 1
+published 2014-08-18 18:11:24
+fingerprint 78C6 76B6 CF33 75AC 6BF3 6313 10D6 9B81 984C 2E92
+uptime 0
+bandwidth 1073741824 1073741824 0
+extra-info-digest 1BC19549FD584440D38D8CEB6041C1B7DB55E67F
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALJk3q4PavKdqxmQdmOzemgeMYV2aPY73ng3Gs5xYsETDmsuc/tNjiVn
+wPBNHNgqb7Y3xbhn5G+81cshsI0moCqoQPjZEFsVTysTDlXcSuIz8JLeL7uZjTgI
+4gZNu1zhDuEoukTl7mShMaIoxAiEA+WenWQf+qi1A0zFfi6XJG/rAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMlvGee2SfFR7OpQegl/DlH4afnwpES4TzYf0xryZNtrsoBcetwGDw6A
+e7pfW2LZ3TeNJdxyF9OnkUbQr5JavKEnoFljKySjRj/5QM4967bdGasy+wPYO5fw
+z27x7/Jh2K9PPRTcpNCH+TU1rWPFvx1FZKnIOoV8AxPbUYqmQPRhAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key 1t/+IuvFpUabcJu4eMZVj71w8hdMxkaehypZuZJg5mI=
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+KKazqo5cKX983xuGDe1EiTcUitK/xFevzHq9mt6f5+6kxalFWVtfaU86ZuSUiz26
+JgGuhwBg2tfZ7feikRia9WmIAEjvd8PK588vmF91H5BPlG+ynVsYn1SVaMw8NZEL
+vafXsvQ7wRfoU6sWzWTut4avfdywyqYyGQW9JbvRH68=
+-----END SIGNATURE-----
+@uploaded-at 2014-08-18 18:11:25
+@source "127.0.0.1"
+router test001r 127.0.0.1 5001 0 7001
+platform Tor 0.2.4.23 on Linux
+protocols Link 1 2 Circuit 1
+published 2014-08-18 18:11:24
+fingerprint 52C3 3DA3 D07A D109 C298 02BE 3E4F 684F BA4A F1AE
+uptime 0
+bandwidth 1073741824 1073741824 0
+extra-info-digest BA09AB16C877683D8CF9F72FFEEE41AEB2B1A5AF
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALRQw6yka1uFoi4yRjxhkNAPEZSSPSJZgK0WC2RebB3oRodWWXDdF7Am
+GsDQao/V14D1K9q0ms7THdqSVR9Yeo8Gm21BUqPHEA+KSw6Ine/lpI27r4xhl6nn
+AmCRF2lbACL7/JBaTtNXh6TXpF2hJosLs76OC9Yq6lqmPEHNNU9zAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALuTrOBz/tsKQNA4Paz/sMNSMd+F37UMXsQOkQ2dgEMz8TpTDSEXk2rr
+n3SO4ErN4F1Qike9TpUhiM/RtyzC3Yu9MkomKWPLMKT7fAqS1Zjp66XGg7QxuMzO
+EUz9hlU7uh7d6MIh64inV1YP0oxObWulghK1UzvCO7GkH1LfZYndAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key lcF9D78bs6aSA/jfTbbmLD9AmHrZkpRQZRFrT9krMCE=
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+j6LeLa/nHOAwNIAXm3VfwkIBuvYUbdvQd0IGYLlh/jj7apikl/OUo7HFkjvS62eu
+JrbvR60PT53LIze7A1oBAXWWFAiotjl4pqyuvpVYlTYHHPrFraAIWmHGIPupEGMs
+S6gJxbZsJMgkHCjNsvG342F5q3dh2sEPJuDuh8xemkQ=
+-----END SIGNATURE-----
+@uploaded-at 2014-08-18 18:11:26
+@source "127.0.0.1"
+router test003r 127.0.0.1 5003 0 7003
+platform Tor 0.2.4.23 on Linux
+protocols Link 1 2 Circuit 1
+published 2014-08-18 18:11:25
+fingerprint 770C EFC1 CC8F 5C42 280C B860 0A8B 4B54 5F91 F173
+uptime 0
+bandwidth 1073741824 1073741824 0
+extra-info-digest DF739BE061B2F14C53743B94BD2F6634E63C1718
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKSGH8uJ4ggmzSOEv5T9OeV0QTodz363jkX85xb81ErwuY1vmcBPyFx1
+GS/TM7JFN6oL4/ZlHAS+NnblpZv9sdrcloD5D8gK2SfC2yLsntYJiI3fyB5aLGMV
+dhZNTsp3xl2PRZix73wgQzIVs4dQSwyyqizX5EF5EQARntL5cP73AgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALDN+bXs3l7rfrpMgC3MvKv/U1IEyE3FQAhdrPSUHmyerIJmYHi7fu5/
+FizNebxDnEYUsU5rCr7aCPx5XV0WYrC6Bp2CZsOAX9+xRP7/PEEqZfB8+kUQQcRe
+xPwr4HhKdsNd7Rp+8e8UM5RVPSOXG/P3tNd4oUt0l+1WZrJF58LLAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+ntor-onion-key hukj9ZlpygPX2JcG8u5jtvMa5Bcl8TvQDUykRoFYZlg=
+reject *:25
+reject *:119
+reject *:135-139
+reject *:445
+reject *:563
+reject *:1214
+reject *:4661-4666
+reject *:6346-6429
+reject *:6699
+reject *:6881-6999
+accept *:*
+router-signature
+-----BEGIN SIGNATURE-----
+YNC3z8fpdzxZ7yBM6K7ATl+H38IytLYw/NFv/oULcfsqjulRaYlRVQhynrgLSQxX
+/G98/48INpRAkiZoOo7ivb+C2ymfoMzV+zokt+CCJBvyOMuOm2IRrONonq8e4rg7
+iLJGmuK7ngqjg5Ies4sMRRXzpDgx14KQiPKsw5UXUAQ=
+-----END SIGNATURE-----
+@uploaded-at 2014-08-18 18:11:26
+@source "127.0.0.1"
+router test000a 127.0.0.1 5000 0 7000
+platform Tor 0.2.4.23 on Linux
+protocols Link 1 2 Circuit 1
+published 2014-08-18 18:11:25
+fingerprint 69C6 2DA6 F3AA 8E94 EFA0 2BC3 392A EF83 F835 1C1D
+uptime 0
+bandwidth 1073741824 1073741824 0
+extra-info-digest 73779CA96C7D7D50418717BB24778622938EA886
+caches-extra-info
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAON13vJTw9EwZH+OPNJxDjDSQguplDoOsiTqqP+U2G1Bo8aOPjLFLqs4
+PFwBJueQgQcvQyJbLb3POF2wvdY/dRPPVetOgv51DGANBrVxPM7Sdhn1w0gigitp
+YDtO9fFRUgvUu3rC0MGRiFp/R/jjCNZNriwggNzdEoRwVL1hrWtZAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBALBO2facBrqkkkzGx6QP6zAp/aPT1X0lQql8HMXZja/ainiGLKocRfhc
+Zu58+JZIAkj+xzuXpiZ7VlBNxeOTT3slSzCVAFHwFampObxDsKCFxH6makrcyZpB
+9iEmAz62YT4rZe00uJh3Q90nCNyNrkr103uEYBKmRs7FR9GslQkHAgMBAAE=
+-----END RSA PUBLIC KEY-----
+hidden-service-dir
+contact auth0@test.test
+ntor-onion-key hVhgbMT549DUqqTHnV5NAzZ1+lqprNbsOrRKpoLkPBo=
+reject *:*
+router-signature
+-----BEGIN SIGNATURE-----
+EQ26b4gtex8gX6TgI/Fe5rtDlGutIUbZfCXPZ/ee7CWEDD5VsgRT298QPjHjT7iE
+jufrBwps6WBoKDSUMKpf4MImOZfYBrJFTaLYsi08vvMLgvWv2NLaujIgOink+PoX
+Dth5DIrfB981533lWvUVTYlbyeKiGag9KK48l3c4R6s=
+-----END SIGNATURE-----

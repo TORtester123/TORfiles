@@ -1,0 +1,16 @@
+Aug 18 18:11:24.000 [notice] Tor 0.2.4.23 (git-19f0f189116dba73) opening new log file.
+Aug 18 18:11:24.000 [notice] Your OpenSSL version seems to be 0.9.8o. We recommend 1.0.0 or later.
+Aug 18 18:11:24.000 [notice] Your Tor server's identity key fingerprint is 'test000a 69C62DA6F3AA8E94EFA02BC3392AEF83F8351C1D'
+Aug 18 18:11:24.000 [warn] Configured authority type does not match authority type in DirAuthority list.  Adjusting. (100 v 108)
+Aug 18 18:11:24.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Aug 18 18:11:24.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Aug 18 18:11:25.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Aug 18 18:11:25.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Aug 18 18:11:25.000 [notice] Bootstrapped 10%: Finishing handshake with directory server.
+Aug 18 18:11:25.000 [notice] We weren't able to find support for all of the TLS ciphersuites that we wanted to advertise. This won't hurt security, but it might make your Tor (if run as a client) more easy for censors to block.
+Aug 18 18:11:25.000 [notice] To correct this, use a more recent OpenSSL, built without disabling any secure ciphers or features.
+Aug 18 18:11:26.000 [notice] While fetching directory info, no running dirservers known. Will try again later. (purpose 14)
+Aug 18 18:11:26.000 [notice] While fetching directory info, no running dirservers known. Will try again later. (purpose 14)
+Aug 18 18:11:26.000 [notice] Scheduling voting.  Known authority IDs are 783285E5999AFBC369E21B6AB4840C3B7DA3761B. Mine is 783285E5999AFBC369E21B6AB4840C3B7DA3761B.
+Aug 18 18:11:26.000 [notice] Choosing expected valid-after time as 2014-08-18 18:15:00: consensus_set=0, interval=300
+Aug 18 18:11:51.000 [notice] Catching signal TERM, exiting cleanly.
