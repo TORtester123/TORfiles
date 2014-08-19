@@ -1,0 +1,23 @@
+TestingTorNetwork 1
+DataDirectory /root/003r
+RunAsDaemon 1
+ConnLimit 60
+Nickname test003r
+ShutdownWaitLength 0
+PidFile /root/003r/pid
+Log notice file /root/003r/notice.log
+Log info file /root/003r/info.log
+ProtocolWarnings 1
+SafeLogging 0
+DirAuthority test000a orport=5000 no-v2 hs v3ident=783285E5999AFBC369E21B6AB4840C3B7DA3761B 10.1.1.1:7000 69C62DA6F3AA8E94EFA02BC3392AEF83F8351C1D
+
+
+
+SocksPort 0
+OrPort 10.1.1.5:5003
+Address 10.1.1.5
+DirPort 10.1.1.5:7003
+#NOTE: Setting TestingServerConsensusDownloadSchedule doesn't
+#      help -- dl_stats.schedule is not DL_SCHED_CONSENSUS
+#      at boostrap time.
+#TestingServerDownloadSchedule 10, 2, 2, 4, 4, 8, 13, 18, 25, 40, 60

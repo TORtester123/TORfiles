@@ -1,0 +1,40 @@
+network-status-version 3
+vote-status consensus
+consensus-method 17
+valid-after 2014-08-19 18:25:00
+fresh-until 2014-08-19 18:30:00
+valid-until 2014-08-19 18:40:00
+voting-delay 20 20
+client-versions 
+server-versions 
+known-flags Authority Exit Fast Guard HSDir Running Stable V2Dir Valid
+dir-source test000a 783285E5999AFBC369E21B6AB4840C3B7DA3761B 10.1.1.1 10.1.1.1 7000 5000
+contact auth0@test.test
+vote-digest 6CE9F46A5671DAB6080E05CF16B1343F41641B2C
+r test001r UsM9o9B60QnCmAK+Pk9oT7pK8a4 BvgPL7eSudbrNubgvRJM8bP6RkE 2014-08-19 13:49:11 10.1.1.3 5001 7001
+s Exit Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.2.4.23
+w Bandwidth=54 Unmeasured=1
+p reject 25,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+r test000a acYtpvOqjpTvoCvDOSrvg/g1HB0 4SsJvGpSwIA+T64GrPKJ3voiFEg 2014-08-19 13:48:39 10.1.1.1 5000 7000
+s Authority Fast HSDir Running V2Dir Valid
+v Tor 0.2.4.23
+w Bandwidth=53 Unmeasured=1
+p reject 1-65535
+r test003r dwzvwcyPXEIoDLhgCotLVF+R8XM YIN6JAEwpjp73QhwjlL4VhSBeCM 2014-08-19 13:27:26 10.1.1.5 5003 7003
+s Exit HSDir Running Stable V2Dir Valid
+v Tor 0.2.4.23
+w Bandwidth=1 Unmeasured=1
+p reject 25,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+r test002r eMZ2ts8zdaxr82MTENabgZhMLpI oPx2/ieMilkl5KtqupKHoJ66Fds 2014-08-19 13:48:24 10.1.1.4 5002 7002
+s Exit Fast Guard HSDir Running Stable V2Dir Valid
+v Tor 0.2.4.23
+w Bandwidth=54 Unmeasured=1
+p reject 25,119,135-139,445,563,1214,4661-4666,6346-6429,6699,6881-6999
+directory-footer
+directory-signature 783285E5999AFBC369E21B6AB4840C3B7DA3761B 770808A3C1D75257813FFF82293028B667D8F6CA
+-----BEGIN SIGNATURE-----
+aujzekWOQircMYJ6zTGR5213/kYdVZWegsDywFscC8fGI2K8P1KO8GC80ct2/mvc
+xyf6tNOcxI8MO9HBeEvXRIuYALFgsWK0/Q2HOch+ojgUpXtT1ei6xib5KBdz0jHE
+3Q3kuR/lGi7L7N5gRBeK5Rc9XtydFzgvBKpXk5ypDM8=
+-----END SIGNATURE-----
