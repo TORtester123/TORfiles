@@ -1,0 +1,96 @@
+Aug 18 18:11:24.000 [notice] Tor 0.2.4.23 (git-19f0f189116dba73) opening new log file.
+Aug 18 18:11:24.000 [info] tor_lockfile_lock(): Locking "/root/chutney/net/nodes/001r/lock"
+Aug 18 18:11:24.000 [info] or_state_load(): Initialized state
+Aug 18 18:11:24.000 [info] circuit_build_times_parse_state(): Adding 0 timeouts.
+Aug 18 18:11:24.000 [info] circuit_build_times_parse_state(): Loaded 0/0 values from 0 lines in circuit time histogram
+Aug 18 18:11:24.000 [info] or_state_save(): Saved state to "/root/chutney/net/nodes/001r/state"
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/001r/router-stability": No such file or directory
+Aug 18 18:11:24.000 [info] cell_ewma_set_scale_factor(): Disabled cell_ewma algorithm because of value in Default value
+Aug 18 18:11:24.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Aug 18 18:11:24.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Aug 18 18:11:24.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Aug 18 18:11:24.000 [info] mark_my_descriptor_dirty(): Decided to publish new relay descriptor: config change
+Aug 18 18:11:24.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Aug 18 18:11:24.000 [info] crypto_global_init(): OpenSSL version matches version from headers (9080ff: OpenSSL 0.9.8o 01 Jun 2010).
+Aug 18 18:11:24.000 [notice] Your OpenSSL version seems to be 0.9.8o. We recommend 1.0.0 or later.
+Aug 18 18:11:24.000 [info] crypto_global_init(): NOT using OpenSSL engine support.
+Aug 18 18:11:24.000 [info] evaluate_evp_for_aes(): No AES engine found; using AES_* functions.
+Aug 18 18:11:24.000 [info] evaluate_ctr_for_aes(): This version of OpenSSL has a slow implementation of counter mode; not using it.
+Aug 18 18:11:24.000 [info] crypto_strongest_rand(): Reading entropy from "/dev/urandom"
+Aug 18 18:11:24.000 [info] configure_nameservers(): Parsing resolver configuration in '/etc/resolv.conf'
+Aug 18 18:11:24.000 [info] eventdns: Parsing resolv.conf file /etc/resolv.conf
+Aug 18 18:11:24.000 [info] eventdns: Trying to add nameserver <10.103.0.1>
+Aug 18 18:11:24.000 [info] eventdns: Added nameserver 10.103.0.1
+Aug 18 18:11:24.000 [info] eventdns: Setting maximum allowed timeouts to 16
+Aug 18 18:11:24.000 [info] eventdns: Setting timeout to 10
+Aug 18 18:11:24.000 [info] eventdns: Setting randomize_case to 1
+Aug 18 18:11:24.000 [info] init_keys(): Reading/making identity key "/root/chutney/net/nodes/001r/keys/secret_id_key"...
+Aug 18 18:11:24.000 [info] init_keys(): Reading/making onion key "/root/chutney/net/nodes/001r/keys/secret_onion_key"...
+Aug 18 18:11:24.000 [info] mark_my_descriptor_dirty(): Decided to publish new relay descriptor: set onion key
+Aug 18 18:11:24.000 [info] tor_tls_init(): OpenSSL OpenSSL 0.9.8o 01 Jun 2010 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Aug 18 18:11:24.000 [info] tor_tls_context_new(): Disabling SSLv3 because this OpenSSL version might otherwise be vulnerable to CVE-2011-4576 (compile-time version 009080ff (OpenSSL 0.9.8o 01 Jun 2010); runtime version 009080ff (OpenSSL 0.9.8o 01 Jun 2010))
+Aug 18 18:11:24.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:24.000 [info] router_rebuild_descriptor(): Rebuilding relay descriptor
+Aug 18 18:11:24.000 [info] extrainfo_dump_to_string(): Adding stats to extra-info descriptor.
+Aug 18 18:11:24.000 [info] init_keys(): Dumping fingerprint to "/root/chutney/net/nodes/001r/fingerprint"...
+Aug 18 18:11:24.000 [notice] Your Tor server's identity key fingerprint is 'test001r 52C33DA3D07AD109C29802BE3E4F684FBA4AF1AE'
+Aug 18 18:11:24.000 [info] Bootstrapped 0%: Starting.
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/001r/cached-certs": No such file or directory
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/001r/cached-consensus": No such file or directory
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/001r/unverified-consensus": No such file or directory
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/001r/cached-microdesc-consensus": No such file or directory
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/001r/unverified-microdesc-consensus": No such file or directory
+Aug 18 18:11:24.000 [info] tor_mmap_file(): Could not open "/root/chutney/net/nodes/001r/cached-microdescs" for mmap(): No such file or directory
+Aug 18 18:11:24.000 [info] read_file_to_str(): Could not open "/root/chutney/net/nodes/001r/cached-microdescs.new": No such file or directory
+Aug 18 18:11:24.000 [info] microdesc_cache_reload(): Reloaded microdescriptor cache. Found 0 descriptors.
+Aug 18 18:11:24.000 [info] tor_mmap_file(): Could not open "/root/chutney/net/nodes/001r/cached-descriptors" for mmap(): No such file or directory
+Aug 18 18:11:24.000 [info] tor_mmap_file(): Could not open "/root/chutney/net/nodes/001r/cached-extrainfo" for mmap(): No such file or directory
+Aug 18 18:11:24.000 [info] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Aug 18 18:11:24.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] router_upload_dir_desc_to_dirservers(): Uploading relay descriptor to directory authorities
+Aug 18 18:11:25.000 [info] directory_post_to_dirservers(): Uploading an extrainfo too (length 448)
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] update_consensus_networkstatus_downloads(): Launching ns networkstatus consensus download.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] directory_send_command(): Downloading consensus from 127.0.0.1:7000 using /tor/status-vote/current/consensus/783285.z
+Aug 18 18:11:25.000 [info] update_consensus_networkstatus_downloads(): Launching microdesc networkstatus consensus download.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] directory_send_command(): Downloading consensus from 127.0.0.1:7000 using /tor/status-vote/current/consensus-microdesc/783285.z
+Aug 18 18:11:25.000 [info] or_state_save(): Saved state to "/root/chutney/net/nodes/001r/state"
+Aug 18 18:11:25.000 [info] channel_register(): Channel 0x7f237c131ff0 (global ID 1) in state opening (1) registered with no identity digest
+Aug 18 18:11:25.000 [info] connection_dir_client_reached_eof(): eof (status 200) after uploading server descriptor: finished.
+Aug 18 18:11:25.000 [info] channel_tls_process_versions_cell(): Negotiated version 4 with 127.0.0.1:42427; Sending cells: VERSIONS CERTS AUTH_CHALLENGE NETINFO
+Aug 18 18:11:25.000 [warn] Received http status code 404 ("Not found") from server '127.0.0.1:7000' while fetching consensus directory.
+Aug 18 18:11:25.000 [info] update_consensus_networkstatus_downloads(): Launching ns networkstatus consensus download.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] router_pick_dirserver_generic(): No dirservers are reachable. Trying them all again.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] directory_send_command(): Downloading consensus from 127.0.0.1:7000 using /tor/status-vote/current/consensus/783285.z
+Aug 18 18:11:25.000 [info] channel_tls_process_certs_cell(): Got some good certificates from 127.0.0.1:42427: Waiting for AUTHENTICATE.
+Aug 18 18:11:25.000 [info] channel_tls_process_authenticate_cell(): Got an AUTHENTICATE cell from 127.0.0.1:42427: Looks good.
+Aug 18 18:11:25.000 [info] channel_tls_process_netinfo_cell(): Got good NETINFO cell from 127.0.0.1:42427; OR connection is now open, using protocol version 4. Its ID digest is 69C62DA6F3AA8E94EFA02BC3392AEF83F8351C1D. Our address is apparently 127.0.0.1.
+Aug 18 18:11:25.000 [warn] Received http status code 404 ("Not found") from server '127.0.0.1:7000' while fetching consensus directory.
+Aug 18 18:11:25.000 [info] update_consensus_networkstatus_downloads(): Launching microdesc networkstatus consensus download.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] router_pick_dirserver_generic(): No dirservers are reachable. Trying them all again.
+Aug 18 18:11:25.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:25.000 [info] directory_send_command(): Downloading consensus from 127.0.0.1:7000 using /tor/status-vote/current/consensus-microdesc/783285.z
+Aug 18 18:11:25.000 [warn] Received http status code 404 ("Not found") from server '127.0.0.1:7000' while fetching consensus directory.
+Aug 18 18:11:25.000 [warn] Received http status code 404 ("Not found") from server '127.0.0.1:7000' while fetching consensus directory.
+Aug 18 18:11:36.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:36.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:47.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:47.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:58.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:58.000 [info] router_pick_published_address(): Success: chose address '127.0.0.1'.
+Aug 18 18:11:59.000 [notice] Catching signal TERM, exiting cleanly.
+Aug 18 18:11:59.000 [info] or_state_save(): Saved state to "/root/chutney/net/nodes/001r/state"
+Aug 18 18:11:59.000 [info] cpuworker_main(): read request failed. Exiting.
+Aug 18 18:11:59.000 [info] buf_shrink_freelists(): Cleaned freelist for 4096-byte chunks: original length 3, kept 0, dropped 3.
+Aug 18 18:11:59.000 [info] buf_shrink_freelists(): Cleaned freelist for 8192-byte chunks: original length 1, kept 0, dropped 1.
+Aug 18 18:11:59.000 [info] buf_shrink_freelists(): Cleaned freelist for 16384-byte chunks: original length 0, kept 0, dropped 0.
+Aug 18 18:11:59.000 [info] buf_shrink_freelists(): Cleaned freelist for 32768-byte chunks: original length 1, kept 0, dropped 1.
+Aug 18 18:11:59.000 [info] tor_lockfile_unlock(): Unlocking "/root/chutney/net/nodes/001r/lock"

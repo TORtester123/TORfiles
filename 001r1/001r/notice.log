@@ -1,0 +1,12 @@
+Aug 18 18:11:24.000 [notice] Tor 0.2.4.23 (git-19f0f189116dba73) opening new log file.
+Aug 18 18:11:24.000 [notice] Parsing GEOIP IPv4 file /usr/share/tor/geoip.
+Aug 18 18:11:24.000 [notice] Parsing GEOIP IPv6 file /usr/share/tor/geoip6.
+Aug 18 18:11:24.000 [notice] Configured to measure statistics. Look for the *-stats files that will first be written to the data directory in 24 hours from now.
+Aug 18 18:11:24.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Aug 18 18:11:24.000 [notice] Your OpenSSL version seems to be 0.9.8o. We recommend 1.0.0 or later.
+Aug 18 18:11:24.000 [notice] Your Tor server's identity key fingerprint is 'test001r 52C33DA3D07AD109C29802BE3E4F684FBA4AF1AE'
+Aug 18 18:11:25.000 [warn] Received http status code 404 ("Not found") from server '127.0.0.1:7000' while fetching consensus directory.
+Aug 18 18:11:25.000 [warn] Received http status code 404 ("Not found") from server '127.0.0.1:7000' while fetching consensus directory.
+Aug 18 18:11:25.000 [warn] Received http status code 404 ("Not found") from server '127.0.0.1:7000' while fetching consensus directory.
+Aug 18 18:11:25.000 [warn] Received http status code 404 ("Not found") from server '127.0.0.1:7000' while fetching consensus directory.
+Aug 18 18:11:59.000 [notice] Catching signal TERM, exiting cleanly.
